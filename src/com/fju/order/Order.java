@@ -10,6 +10,11 @@ public class Order {
         this.delivery = delivery;
         this.shipFeed = shipFeed;
     }
+
+    public Order(int amount, Delivery shopee) {
+
+    }
+
     public int total(){
         return amount+shipFeed;
     }
